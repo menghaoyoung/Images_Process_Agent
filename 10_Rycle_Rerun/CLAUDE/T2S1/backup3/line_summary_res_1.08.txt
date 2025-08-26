@@ -1,0 +1,6 @@
+Line segment from (152, 29) to (136, 91)
+Image: C:\Users\admin\Desktop\Python_proj\datas\T2_IMGS\Li_1.0.png
+Resolution: 1.08 mm/pixel
+Pixel length: 64.03 pixels
+Physical length: 69.15 mm
+Number of grayscale values: 66
