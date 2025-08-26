@@ -1,0 +1,19 @@
+Image Line Segment Analysis Report
+==================================================
+
+Processing Parameters:
+- Start Point: (152, 29)
+- End Point: (136, 91)
+- Image: Li_1.0.png
+
+Resolution Analysis:
+Resolution (units/pixel) | Real Length (units)
+---------------------------------------------
+              0.5000 |              32.02
+              1.0000 |              64.03
+              1.0800 |              69.15
+              1.5000 |              96.05
+              2.0000 |             128.06
+
+Conclusion:
+Processed 5 resolution values. All outputs saved in the output directory.
