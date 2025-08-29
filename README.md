@@ -1,6 +1,6 @@
 # MatImageAgent - Materials Characterization Image Processing Multimodal Agent
 
-https://github.com/menghaoyoung/Images_Process_Agent/blob/main/workflow.png
+![MyWorkflow](https://github.com/menghaoyoung/Images_Process_Agent/raw/main/workflow.png)
 
 This repository hosts the code and supporting materials for **MatImageAgent**, a Large Language Model (LLM)-based multimodal agent designed to automate image analysis workflows in solid-state battery materials research. MatImageAgent enables end-to-end automation of scanning electron microscopy (SEM), X-ray computed tomography (XCT), and atomic force microscopy (AFM) image processing—covering image recognition, quantitative analysis, and research report generation—without requiring researchers to master complex programming skills.
 
