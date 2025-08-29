@@ -1,0 +1,31 @@
+1. Modify the program to read input images, use the PIL library (Pillow) to read all images with the "Li_" prefix from a specified folder (supporting PNG/JPG formats). Convert images to grayscale and extract pixel grayscale values. Identify GAP pixels defined as: (1) Grayscale value between 12–18 (inclusive) (2) At least one adjacent pixel (up/down/left/right) has 20 contiguous pixels meeting the grayscale condition.
+Generate a per-pixel CSV file containing: Coordinates (row, column), Grayscale value, GAP flag (0 or 1). 
+Then, based on the image resolution(re), calculate GAP height per column. GAP_height = [(max_row - min_row + 1) × re] μm.  For example, the program should be runnable with a command like python py1.py -re=0.0187. Generate two output files per image:
+​CSV file: Stores all pixel analysis data, naming: {original_image_name}_gap_analysis.csv
+​TXT file: contains: (1) Physical dimension parameter (μm/pixel) (2) Height statistics (max/avg height in μm)
+Only modify the program and save it as py1.py, do not execute it in this step.
+2. Then, run py1.py in the background for re=0.0187, and verify if the output text files, and CSV files exist. If they exist, print "Calculation successful".
+3. Utilize Python to generate a Word document and write a detailed simulation report (500 words) based on the generated graphs and provided instructions. Choose a suitable title and divide the report into four sections: begin with an Abstract, followed by an "Introduction" section briefly describing purpose and background, a "Methods" section discussing programming approaches, and a "Results" section presenting findings. The data in the 'Results' section must be derived from the output TXT file.
+
+[Parameters]:
+specified folder = " "
+
+[Python Program framework]:
+import os
+import csv
+from PIL import Image
+import numpy as np
+from collections import defaultdict
+import time
+
+# Check whether the pixel points meet the GAP condition：(1) Grayscale value between 12–18 (inclusive) (2) At least one adjacent pixel (up/down/left/right) has 20 contiguous pixels meeting the grayscale condition.
+def check_gap_conditions():
+
+# Process all images in the directory whose filenames start with " "
+def process_images():
+
+if __name__ == "__main__":
+    input_directory = " "
+    process_images(input_directory)
+    print("Proceed all the images！")
+[END of python program]
