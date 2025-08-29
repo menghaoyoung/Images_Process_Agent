@@ -1,4 +1,0 @@
-Line segment length: 70.2 ¦Ìm
-Start point: (152, 29)
-End point: (135, 92)
-Resolution: 1.08 ¦Ìm/pixel
