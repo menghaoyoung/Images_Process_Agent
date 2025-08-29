@@ -128,5 +128,6 @@ MatImageAgent/
 │       ├── MD_T2.txt
 │       └── MD_T3.txt
 ├── 10_Rycle_Rerun/            # TASK 1–3 rerun for 10 cycles for stability test
+├── workflow.png               # A brif review of MatImageAgent
 └── README.md                  # User guide (this file)
 ```
